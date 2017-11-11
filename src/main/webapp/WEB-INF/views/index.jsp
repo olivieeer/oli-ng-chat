@@ -13,6 +13,7 @@
           <button ng-disabled="message.length > max || message.length === 0">Send</button>
         </div>
       </form>
+      <h1>YOUPI MON CHAT</h1>
       <hr />
       <p ng-repeat="message in messages | orderBy:'time':true" class="message">
         <time>{{message.time | date:'HH:mm'}}</time>
